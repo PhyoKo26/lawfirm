@@ -27,7 +27,7 @@ const ContactMe: React.FC = () => {
         "4cHSjERhSHWOiNm4_" // Replace with your EmailJS public key
       )
       .then(
-        (response) => {
+        () => {
           alert("✅ Message sent successfully!");
           setFormData({
             firstName: "",
