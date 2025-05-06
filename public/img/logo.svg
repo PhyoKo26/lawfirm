@@ -1,0 +1,11 @@
+<svg width="170" height="40" viewBox="0 0 170 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- ℘ Symbol -->
+  <text x="5" y="30" font-family="Times New Roman, serif" font-size="35" fill="#006B6A">
+    ℘
+  </text>
+  
+  <!-- Name Text -->
+  <text x="35" y="30" font-family="'Ubuntu', sans-serif" font-size="18" fill="#394149">
+    Phyo KoKo Myat
+  </text>
+</svg>
