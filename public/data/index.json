@@ -1,0 +1,175 @@
+{
+    "lawyers": [
+        {
+            "id": 1,
+            "name": "Jane Doe",
+            "specialty": "Corporate Law",
+            "title": "Senior Partner",
+            "bio": "Jane Doe is a leading authority in corporate law with over 15 years of experience advising Fortune 500 companies on mergers, acquisitions, and governance. She is known for her strategic insights and dedication to client success.",
+            "education": "J.D., Harvard Law School",
+            "experience": "Senior Partner at LawFirm LLP (2015–Present); Corporate Counsel at Acme Corp (2010–2015)",
+            "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+            "facebook": "https://www.facebook.com/janedoe",
+            "linkedin": "https://linkedin.com/in/janedoe",
+            "email": "jane.doe@lawfirm.com",
+            "phone": "+1 555 123 4567",
+            "practiceAreas": [
+                "Mergers & Acquisitions",
+                "Corporate Governance",
+                "Contract Law",
+                "Regulatory Compliance"
+            ],
+            "awards": [
+                "Best Corporate Lawyer 2023 – National Law Awards",
+                "Super Lawyers Rising Star 2022",
+                "Top 100 Lawyers in America 2021"
+            ],
+            "featuredWins": [
+                "Led $500M acquisition for Acme Corp in 2023",
+                "Advised on Fortune 100 IPO in 2022"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "John Smith",
+            "specialty": "Criminal Defense",
+            "title": "Managing Attorney",
+            "bio": "John Smith is a passionate and fearless criminal defense attorney with a decade of courtroom victories. He is respected for his unwavering commitment to justice and his skillful defense strategies.",
+            "education": "J.D., Yale Law School",
+            "experience": "Managing Attorney at LawFirm LLP (2018–Present); Public Defender (2015–2018)",
+            "photo": "https://randomuser.me/api/portraits/men/46.jpg",
+            "facebook": "https://www.facebook.com/johnsmith",
+            "email": "john.smith@lawfirm.com",
+            "phone": "+1 555 234 5678",
+            "practiceAreas": [
+                "Criminal Defense",
+                "White Collar Crime",
+                "DUI & DWI Defense",
+                "Juvenile Defense"
+            ],
+            "awards": [
+                "Top Criminal Defense Attorney 2024 – State Bar Association",
+                "Client Champion Award 2023"
+            ],
+            "featuredWins": [
+                "Secured acquittal in high-profile fraud case, 2024",
+                "Over 100 criminal cases successfully defended"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Emily Johnson",
+            "specialty": "Family Law",
+            "title": "Associate Attorney",
+            "bio": "Emily Johnson brings compassion and expertise to every family law case. She is dedicated to helping clients navigate sensitive matters such as custody, divorce, and adoption with care and clarity.",
+            "education": "J.D., Stanford Law School",
+            "experience": "Associate Attorney at LawFirm LLP (2020–Present); Family Law Clerk (2018–2020)",
+            "photo": "https://randomuser.me/api/portraits/women/65.jpg",
+            "facebook": "https://www.facebook.com/emilyjohnson",
+            "linkedin": "https://linkedin.com/in/emilyjohnson",
+            "twitter": "https://twitter.com/emilyjohnson",
+            "email": "emily.johnson@lawfirm.com",
+            "phone": "+1 555 345 6789",
+            "practiceAreas": [
+                "Divorce & Separation",
+                "Child Custody & Support",
+                "Adoption",
+                "Domestic Violence"
+            ],
+            "awards": [
+                "Rising Star in Family Law 2023",
+                "Pro Bono Service Award 2022"
+            ],
+            "featuredWins": [
+                "Won full custody for client in landmark case, 2023",
+                "Successfully completed 30+ adoptions"
+            ]
+        }
+    ],
+    "services": [
+        {
+            "id": "corporate-law",
+            "title": "Corporate Law",
+            "description": "Expert advice on corporate governance, mergers, and acquisitions to help your business thrive.",
+            "details": "Our corporate law team provides comprehensive legal services including company formation, compliance, mergers & acquisitions, shareholder agreements, and corporate governance to ensure your business operates efficiently and legally.",
+            "howWeHelp": [
+                "Company formation and registration",
+                "Mergers and acquisitions support",
+                "Corporate governance advice",
+                "Drafting and reviewing shareholder agreements",
+                "Regulatory compliance and reporting"
+            ],
+            "icon": "FaBuilding"
+        },
+        {
+            "id": "family-law",
+            "title": "Family Law",
+            "description": "Compassionate support for divorce, custody, and adoption cases, ensuring your family’s best interests.",
+            "details": "We offer empathetic and professional legal assistance in matters of divorce, child custody, adoption, and domestic violence, prioritizing your family’s welfare and rights.",
+            "howWeHelp": [
+                "Divorce and separation proceedings",
+                "Child custody and visitation rights",
+                "Adoption and guardianship",
+                "Domestic violence protection orders",
+                "Prenuptial and postnuptial agreements"
+            ],
+            "icon": "FaUsers"
+        },
+        {
+            "id": "criminal-defense",
+            "title": "Criminal Defense",
+            "description": "Aggressive defense for criminal charges and investigations to protect your rights.",
+            "details": "Our criminal defense lawyers provide vigorous representation in all criminal matters, protecting your rights throughout investigations, hearings, and trials.",
+            "howWeHelp": [
+                "Representation during criminal investigations",
+                "Defense in court trials",
+                "Bail and bond hearings",
+                "Negotiation of plea bargains",
+                "Appeals and post-conviction relief"
+            ],
+            "icon": "FaShieldAlt"
+        },
+        {
+            "id": "litigation",
+            "title": "Litigation",
+            "description": "Representation in civil disputes, contract issues, and court proceedings with a strategic approach.",
+            "details": "We handle complex civil litigation matters including contract disputes, business conflicts, and personal injury claims with a focus on achieving favorable outcomes.",
+            "howWeHelp": [
+                "Contract dispute resolution",
+                "Business and commercial litigation",
+                "Personal injury claims",
+                "Alternative dispute resolution",
+                "Trial preparation and representation"
+            ],
+            "icon": "FaGavel"
+        },
+        {
+            "id": "mediation-arbitration",
+            "title": "Mediation & Arbitration",
+            "description": "Alternative dispute resolution services to save time, money, and relationships.",
+            "details": "Our experienced mediators and arbitrators help parties resolve disputes efficiently outside of court, preserving relationships and reducing costs.",
+            "howWeHelp": [
+                "Facilitation of mediation sessions",
+                "Binding and non-binding arbitration",
+                "Negotiation and settlement agreements",
+                "Conflict resolution strategy",
+                "Customized dispute resolution plans"
+            ],
+            "icon": "FaHandshake"
+        },
+        {
+            "id": "intellectual-property",
+            "title": "Intellectual Property",
+            "description": "Protect your innovations, trademarks, and copyrights with expert legal guidance.",
+            "details": "We assist individuals and businesses in securing and enforcing intellectual property rights including patents, trademarks, copyrights, and trade secrets.",
+            "howWeHelp": [
+                "Patent application and prosecution",
+                "Trademark registration and enforcement",
+                "Copyright protection",
+                "IP licensing and assignments",
+                "IP litigation and defense"
+            ],
+            "icon": "FaBalanceScale"
+        }
+    ]
+}
