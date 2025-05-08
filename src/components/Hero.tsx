@@ -13,18 +13,6 @@ const Hero: React.FC = () => {
     const [animateText, setAnimateText] = useState(false);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setFade(false); // start fade out
-            setTimeout(() => {
-                setCurrentImage((prev) => (prev + 1) % images.length);
-                setFade(true); // fade in new image
-            }, 1000); // match transition duration
-        }, 8000); // change every 8 seconds
-
-        return () => clearInterval(interval);
-    }, []);
-
-    useEffect(() => {
         setAnimateText(true);
         const interval = setInterval(() => {
             setFade(false);
@@ -87,13 +75,23 @@ const Hero: React.FC = () => {
                     <li>✔ Multilingual team ready to assist you</li>
                 </ul>
 
-                {/* Call to Action */}
-                <a
-                    href="#contact"
-                    className="inline-block bg-white text-blue-900 font-semibold px-10 py-4 rounded-lg shadow-lg transition transform hover:scale-110 hover:bg-blue-100"
-                >
-                    Contact Us
-                </a>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+                    {/* Contact Us - Primary Button */}
+                    <a
+                        href="/contact"
+                        className="inline-block bg-blue-600 text-white font-semibold px-10 py-4 rounded-lg shadow-lg transition transform hover:scale-105 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    >
+                        Contact Us
+                    </a>
+
+                    {/* Learn More About Us - Secondary/Outlined Button */}
+                    <a
+                        href="/about"
+                        className="inline-block bg-white border-2 border-blue-600 text-blue-700 font-semibold px-10 py-4 rounded-lg shadow-lg transition transform hover:scale-105 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    >
+                        Learn More About Us
+                    </a>
+                </div>
 
                 {/* Social Proof */}
                 <div

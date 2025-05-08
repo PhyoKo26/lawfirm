@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import ServiceDetail from "./components/ServiceDetail";
 import { useTranslation } from "react-i18next";
+import About from "./components/About";
 
 const App: React.FC = () => {
   const { i18n } = useTranslation();
@@ -43,6 +44,7 @@ const App: React.FC = () => {
             <Route path="/lawyers" element={<LawyerList />} />
             <Route path="/lawyers/:lawyerId" element={<LawyerDetail />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

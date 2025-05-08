@@ -60,6 +60,16 @@ const Navbar: React.FC = () => {
                     <ul className="flex space-x-6">
                         <li>
                             <NavLink
+                                to="/about"
+                                className={({ isActive }) =>
+                                    isActive ? "underline" : "hover:underline"
+                                }
+                            >
+                                About
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to="/lawyers"
                                 className={({ isActive }) =>
                                     isActive ? "underline" : "hover:underline"
@@ -94,7 +104,7 @@ const Navbar: React.FC = () => {
                             onClick={() => setLangOpen(!langOpen)}
                             aria-haspopup="true"
                             aria-expanded={langOpen}
-                            className="flex items-center space-x-1 focus:outline-none focus:ring-2 focus:ring-white rounded"
+                            className="flex items-center space-x-1 focus:outline-none focus:ring-2 focus:ring-white rounded cursor-pointer"
                             title="Select Language"
                         >
                             <FaGlobe size={20} />
@@ -158,6 +168,17 @@ const Navbar: React.FC = () => {
                     }`}
             >
                 <ul className="flex flex-col space-y-2 px-6">
+                    <li>
+                        <NavLink
+                            to="/about"
+                            className={({ isActive }) =>
+                                isActive ? "underline" : "hover:underline"
+                            }
+                            onClick={() => setOpen(false)}
+                        >
+                            About
+                        </NavLink>
+                    </li>
                     <li>
                         <NavLink
                             to="/lawyers"

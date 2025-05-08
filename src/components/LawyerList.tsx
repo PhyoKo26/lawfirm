@@ -9,7 +9,7 @@ const LawyerList: React.FC = () => {
     return (
         <section className="py-16 px-6">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-12">
+                <h2 className="text-3xl font-extrabold text-blue-900 text-center mb-8">
                     Our Legal Experts
                 </h2>
                 <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

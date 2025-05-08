@@ -76,25 +76,31 @@ const Contact: React.FC = () => {
 
                     {/* Contact Info */}
                     <div className="space-y-6 text-gray-800 text-lg">
-                        <div className="flex items-center gap-3">
-                            <FiPhone className="text-blue-600 w-6 h-6" />
+                        <div className="flex gap-3">
+                            <div className="flex self-stretch">
+                                <FiPhone className="text-blue-600 w-6 h-6" />
+                            </div>
                             <a href="tel:+63272142470" className="hover:underline">
                                 (02) 7214-2470
                             </a>
                         </div>
-                        <div className="flex items-center gap-3">
-                            <FiMail className="text-blue-600 w-6 h-6" />
+                        <div className="flex gap-3">
+                            <div className="flex self-stretch">
+                                <FiMail className="text-blue-600 w-6 h-6" />
+                            </div>
                             <a href="mailto:info_philippines@syp-law.com" className="hover:underline">
                                 info_philippines@syp-law.com
                             </a>
                         </div>
-                        <div className="flex items-start gap-3">
-                            <FiMapPin className="text-blue-600 w-6 h-6 mt-1" />
+                        <div className="flex gap-3">
+                            <div className="flex self-stretch">
+                                <FiMapPin className="text-blue-600 w-6 h-6" />
+                            </div>
                             <span>
-                                10th Floor, Tower 1, High Street South Corporate Plaza, 26th Street corner 9th Avenue,<br />
-                                Bonifacio Global City, Taguig 1634, Metro Manila, Philippines
+                                10th Floor, Tower 1, High Street South Corporate Plaza, 26th Street corner 9th Avenue, Bonifacio Global City, Taguig 1634, Metro Manila, Philippines
                             </span>
                         </div>
+
                     </div>
                 </div>
 
