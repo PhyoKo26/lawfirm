@@ -1,32 +1,5 @@
 import React, { useState } from "react";
-import { FaGavel, FaHandshake, FaAward, FaBuilding, FaPhone, FaLinkedin, FaFacebook, FaTwitter, FaEnvelope } from "react-icons/fa";
-import { motion } from "framer-motion";
-
-// Example data (replace with your real data)
-const partners = [
-    {
-        name: "Jane Doe",
-        title: "Senior Partner",
-        specialty: "Corporate Law",
-        photo: "https://randomuser.me/api/portraits/women/44.jpg",
-        phone: "+1 555 123 4567",
-        linkedin: "https://linkedin.com/in/janedoe",
-        facebook: "https://facebook.com/janedoe",
-        twitter: "",
-        email: "mailto:jane.doe@lawfirm.com",
-    },
-    {
-        name: "John Smith",
-        title: "Managing Attorney",
-        specialty: "Criminal Defense",
-        photo: "https://randomuser.me/api/portraits/men/46.jpg",
-        phone: "+1 555 234 5678",
-        linkedin: "",
-        facebook: "https://facebook.com/johnsmith",
-        twitter: "",
-        email: "mailto:john.smith@lawfirm.com",
-    },
-];
+import { FaGavel, FaHandshake, FaAward, FaBuilding } from "react-icons/fa";
 
 const awards = [
     "Best Corporate Law Firm 2024 – National Law Awards",
